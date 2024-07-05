@@ -2,7 +2,7 @@
     "name" : "sodaguide",
     "appid" : "__UNI__CAAA403",
     "description" : "Sodagreen Tourist Guide Map",
-    "versionName" : "0.0.2",
+    "versionName" : "0.0.3",
     "versionCode" : 1,
     "transformPx" : false,
     /* 5+App特有相关 */
