@@ -1,0 +1,82 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "苏打盖 Sodaguide"
+			}
+		},
+		{
+			"path": "pages/more/more",
+			"style": {
+				"navigationBarTitleText": "更多"
+			}
+		},
+		{
+			"path": "pages/more/social"
+		},
+		{
+			"path" : "pages/more/about/about",
+			"style" : 
+			{
+				"navigationBarTitleText" : "关于小程序"
+			}
+		},
+		{
+			"path" : "pages/more/about/sodaguide"
+		},
+		{
+			"path" : "pages/more/about/web"
+		},
+		{
+			"path" : "pages/more/about/author",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	// "subPackages": [
+	// 	{
+	// 		"root": "pages/social",
+	// 		"pages": [
+	// 			{
+	// 				"path": "social"
+	// 			}
+	// 		]
+	// 	}
+	// ],
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"fui-(.*)": "@/components/firstui/fui-$1/fui-$1.vue"
+		}
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "dark",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F1F4FA",
+		"backgroundColorTop": "#F1F4FA",
+		"backgroundColorBottom": "#F1F4FA"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#3EAF7C",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/if/home.png",
+				"selectedIconPath": "static/if/home-fill.png"
+			},
+			{
+				"pagePath": "pages/more/more",
+				"text": "更多",
+				"iconPath": "static/if/more.png",
+				"selectedIconPath": "static/if/more-fill.png"
+			}
+		]
+	}
+}
