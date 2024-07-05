@@ -18,7 +18,7 @@
 				<fui-list-cell arrow @click="href('web')">
 					关于项目（web）
 				</fui-list-cell>
-				<fui-list-cell arrow @click="href('web')">
+				<fui-list-cell arrow @click="href('weapp')">
 					关于项目（小程序）
 				</fui-list-cell>
 				<fui-list-cell bottomLeft="0" arrow @click="href('author')">

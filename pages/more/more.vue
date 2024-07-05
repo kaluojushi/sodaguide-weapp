@@ -35,7 +35,7 @@
 						<text>关于小程序</text>
 					</view>
 				</fui-list-cell>
-				<fui-list-cell arrow @click="this.fui.href('about/about')">
+				<fui-list-cell arrow @click="this.fui.href('logs/logs')">
 					<view class="fui-align__center">
 						<image class="fui-list__icon" src="/static/if/history.png" mode="widthFix">
 						</image>

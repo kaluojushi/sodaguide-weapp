@@ -29,11 +29,20 @@
 			"path" : "pages/more/about/web"
 		},
 		{
-			"path" : "pages/more/about/author",
+			"path" : "pages/more/about/author"
+		},
+		{
+			"path" : "pages/more/about/weapp"
+		},
+		{
+			"path" : "pages/more/logs/logs",
 			"style" : 
 			{
-				"navigationBarTitleText" : ""
+				"navigationBarTitleText" : "更新日志"
 			}
+		},
+		{
+			"path" : "pages/more/logs/detail"
 		}
 	],
 	// "subPackages": [
