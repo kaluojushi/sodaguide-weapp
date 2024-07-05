@@ -16,7 +16,7 @@ const store = new Vuex.Store({
 			const store = createStore({
 				// #endif
 				state: {
-					version: "0.0.2"
+					// version: "0.0.2"
 				},
 				mutations: {
 					//登录

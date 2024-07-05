@@ -34,14 +34,17 @@
 </template>
 
 <script>
-	import {
-		mapState
-	} from 'vuex'
+	// import {
+	// 	mapState
+	// } from 'vuex'
 	import $fui from '@/components/firstui/fui-clipboard';
+	import logs from "@/data/logs.js";
 	export default {
-		computed: mapState(['version']),
+		// computed: mapState(['version']),
 		data() {
 			return {
+				version: logs[0].version || "Unknown",
+				
 				logoSrc: "https://picbed-1300227887.cos.ap-shanghai.myqcloud.com/sodaguide-weapp/logo.jpg",
 
 				sgFooterNavigate: [{
