@@ -42,21 +42,21 @@
 						<text>更新日志</text>
 					</view>
 				</fui-list-cell>
-				<fui-list-cell arrow @click="this.fui.href('about/about')">
+				<fui-list-cell arrow @click="this.fui.href('../common/working')">
 					<view class="fui-align__center">
 						<image class="fui-list__icon" src="/static/if/contribute.png" mode="widthFix">
 						</image>
 						<text>贡献指南</text>
 					</view>
 				</fui-list-cell>
-				<fui-list-cell arrow @click="this.fui.href('about/about')">
+				<fui-list-cell arrow @click="this.fui.href('links/links')">
 					<view class="fui-align__center">
 						<image class="fui-list__icon" src="/static/if/links.png" mode="widthFix">
 						</image>
 						<text>推荐链接</text>
 					</view>
 				</fui-list-cell>
-				<fui-list-cell arrow @click="this.fui.href('about/about')">
+				<fui-list-cell arrow @click="this.fui.href('../common/working')">
 					<view class="fui-align__center">
 						<image class="fui-list__icon" src="/static/if/setting.png" mode="widthFix">
 						</image>

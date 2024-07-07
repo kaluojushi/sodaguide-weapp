@@ -43,6 +43,23 @@
 		},
 		{
 			"path" : "pages/more/logs/detail"
+		},
+		{
+			"path" : "pages/more/links/links",
+			"style" : 
+			{
+				"navigationBarTitleText" : "推荐链接"
+			}
+		},
+		{
+			"path" : "pages/more/links/detail"
+		},
+		{
+			"path" : "pages/common/working",
+			"style" : 
+			{
+				"navigationBarTitleText" : "施工中……"
+			}
 		}
 	],
 	// "subPackages": [
